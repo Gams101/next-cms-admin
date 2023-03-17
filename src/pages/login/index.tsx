@@ -1,10 +1,9 @@
-import Layout from '@/components/layout'
 import Head from 'next/head'
 import React from 'react'
 
 const Login = () => {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Login</title>
       </Head>
@@ -56,7 +55,7 @@ const Login = () => {
           </form>
         </div>
       </div>
-    </Layout>
+    </>
   )
 }
 
